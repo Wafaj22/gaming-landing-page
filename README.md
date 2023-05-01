@@ -5,7 +5,7 @@ Hyperrealms is a gaming platform landing page built with Next.js, TypeScript, Ta
 A live demo of HYPERREALMS can be found at https://hyperrealms.vercel.app/
 
 ### Installation
-To run HYPERREALMS locally, follow these steps:
+To run Hyperrealms locally, follow these steps:
 
 Clone this repository to your local machine:
 ``` 
