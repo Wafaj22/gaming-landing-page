@@ -1,7 +1,7 @@
 import styles from "../styles";
 
 type StartStepsProps = {
-  number: number;
+  number: string;
   text: string;
 };
 

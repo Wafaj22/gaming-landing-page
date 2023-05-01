@@ -18,7 +18,13 @@ const variants = {
   },
 };
 
-export const MenuItem = ({ id, text, link }) => {
+type MenuProps = {
+  id: string;
+  text: string;
+  link: string;
+};
+
+export const MenuItem = ({ id, text, link }: MenuProps) => {
   return (
     <motion.a
       href={`#` + link}
