@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className={`${darkMode ? "dark" : ""} transition-colors`}>
-      <div className="dark:bg-primary-black overflow-hidden">
+      <div className="dark:bg-primary-black overflow-hidden duration-500">
         <Navbar darkMode={darkMode} toggleMode={toggleMode} />
         <Hero />
         <div className="relative">
